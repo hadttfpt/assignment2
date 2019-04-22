@@ -11,7 +11,7 @@ public class MainSoNto {
             System.out.print("So nguyen to lien sau la "+number.timSoNguyenToTiepTheo());
         }
         else {
-            System.out.println("Khong la so nguyen to");
+            System.out.println("Khong la so nguyen to aaa");
         }
     }
 }
