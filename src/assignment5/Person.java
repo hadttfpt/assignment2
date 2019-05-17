@@ -64,7 +64,7 @@ Tạo Main để chạy chương trình: Tạo 1 đối tượng Student rồi n
     public void setGioiTinh(String gioiTinh) {
         this.gioiTinh = gioiTinh;
     }
-    /*Viết Phương thức inputInfo() để nhập thông tin từ bàn phím*/
+
     public void inputInfor(){
         Scanner sc = new Scanner(System.in);
             System.out.println("Nhap ten");
@@ -80,7 +80,7 @@ Tạo Main để chạy chương trình: Tạo 1 đối tượng Student rồi n
             setGioiTinh(gioiTinh);
             setNamSinh(namSinh);
     }
-    /*Viết phương thức showInfo() để hiện thông tin */
+
     public void showInfor(){
         System.out.println("Name "+getName());
         System.out.println("Gioi Tinh "+getGioiTinh());
